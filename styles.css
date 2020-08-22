@@ -1,0 +1,33 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Dosis;
+  line-height: 1.4;
+}
+
+header {
+  height: 60vh;
+  text-align: center;
+  background-color: #1c1e20;
+  color: #909498;
+}
+
+h1 {
+  position: relative;
+  top: 2em;
+}
+
+header img {
+  position: relative;
+  top: 9em;
+  width: 85%;
+}
+
+.about-container {
+  
+}
+
