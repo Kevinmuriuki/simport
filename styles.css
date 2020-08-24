@@ -198,6 +198,28 @@ figcaption span{
   margin: 5em;
 }
 
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #dedad9;
+  text-align: center;
+}
+.curve {
+  position: relative;
+  top: .4em;
+}
+
+.curve path {
+  fill: #1c1e20;
+}
+
+.footer-content {
+  padding: 3em;
+  background-color: #1c1e20;
+  color: #fff;
+  font-size: 0.9em;
+}
+
 
 
 
