@@ -14,14 +14,14 @@ header {
   height: 100vh;
   text-align: center;
   background-color: #1c1e20;
-  color: #909498;
+  color: #fff;
 }
 
 h1 {
   position: relative;
   top: 8rem;
   font-weight: normal;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 h2 {
@@ -97,18 +97,19 @@ header img {
   width: 60%;
 }
 
-h3 {
+.container-wrapper h3 {
   margin-bottom: 2em;
 }
 
-ul {
+.container-wrapper ul {
   margin-bottom: 5em;
 }
 
-li, a {
+.container-wrapper li, .container-wrapper a {
   list-style: none;
   text-decoration: none;
   font-size: 1.4em;
+  color: #dedad9;
 }
 
 .content-wrapper li {
@@ -147,6 +148,15 @@ ul:hover li:hover{
   padding: 2em;
 }
 
+.work-container {
+  background-color: #dedad9;
+  text-align: center;
+}
+
+.work-container a {
+  text-decoration: none;
+  color: #1c1e20;
+}
 
 
 
