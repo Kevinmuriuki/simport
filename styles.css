@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: normal;
 }
 
@@ -119,6 +119,7 @@ header img {
   box-shadow: 0 .2em .3em 0em rgba(0,0,0,0.25);
   border-radius: 3px;
   font-size: .9em;
+  cursor: pointer;
   transition: .2s all; 
 }
 
@@ -165,6 +166,38 @@ ul:hover li:hover{
   text-decoration: none;
   color: #1c1e20;
 }
+
+.work-project-examples {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+figure {
+  display: block;
+  max-width: 30%;
+  text-align: left;
+  font-style: italic;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption span{
+  font-size: 1.4em;
+}
+
+.work-content .follow-link {
+  margin: 5em;
+}
+
 
 
 
