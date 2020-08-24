@@ -118,6 +118,7 @@ header img {
   border-top: .1em solid #d6d6d6;
   box-shadow: 0 .2em .3em 0em rgba(0,0,0,0.25);
   border-radius: 3px;
+  font-size: .9em;
   transition: .2s all; 
 }
 
@@ -144,8 +145,10 @@ ul:hover li:hover{
   text-transform: uppercase;
 }
 
-.content-wrapper p {
-  padding: 2em;
+.follow-link {
+  display: inline-block;
+  margin-bottom: 2em;
+  font-size: .9em;
 }
 
 .work-container {
@@ -153,7 +156,12 @@ ul:hover li:hover{
   text-align: center;
 }
 
-.work-container a {
+.work-content h2{
+  display: inline-block;
+  margin: 2em;
+}
+
+.work-content a {
   text-decoration: none;
   color: #1c1e20;
 }
