@@ -78,23 +78,28 @@ header img {
   padding: 2em;
 }
 
-.flex-items {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
+.float-items {
+  margin: 0 auto;
+  width: 80%;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
+  justify-content: space-around;
 }
 
-.flex-items img {
+.float-items img {
   width: 15em;
   height: 22em;
-  transform: rotate(-30deg);
+  transform: rotate(-25deg);
+  float: left;
+  padding-right: 3em;
 }
 
-.flex-items p {
-  padding: 0;
-  width: 60%;
+@media screen and (max-width: 780px) {
+  .flex-items img {
+    transform: none;
+    width: 10em;
+    height: 10em;
+  }
 }
 
 .container-wrapper h3 {
