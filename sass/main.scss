@@ -1,6 +1,7 @@
 @import 'config';
 @import 'home';
 @import 'menu';
+@import 'about';
 
 body {
   background: $primary-color;
@@ -45,6 +46,8 @@ main {
     }
   }
 }
+
+
 
 footer {
   font-size: 1rem;
